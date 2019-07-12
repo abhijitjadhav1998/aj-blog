@@ -1,0 +1,15 @@
+<h1> Article created successfully </h1>
+
+<h2>Title:</h2>
+<p>
+  <%= @article.title %>
+</p>
+
+<h3>
+  Description:
+</h3>
+<p>
+  <%= @article.description %>
+</p>
+<%= link_to "Edit" , edit_article_path(@article)%>
+<%= link_to "Back to Article listing" ,articles_path %>
