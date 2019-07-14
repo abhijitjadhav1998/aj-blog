@@ -28,10 +28,27 @@ $navbar-default-bg:#000000;
 
 .jumbotron h1{
   font-weight: bolder;
-  color: rgb(83, 51, 183);
-  text-shadow: 2px 2px 5px yellow;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px white;
 }
 
+.article-action{
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
+}
+.description{
+  margin-top: 0;
+}
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #eaeaea;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 footer{
   margin-top: 45px;
   padding-top: 5px;
