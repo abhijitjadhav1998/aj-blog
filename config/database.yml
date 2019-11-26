@@ -49,8 +49,7 @@ test:
 #
 production:
   adapter: postgresql
-  encoding: unicode
-  database: alpha-blog_production
+  host: localhost
   username: alpha-blog
-  password: <%= ENV['ALPHA-BLOG_DATABASE_PASSWORD'] %>
+  database: alpha-blog_production
 
