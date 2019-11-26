@@ -47,9 +47,4 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-production:
-  adapter: postgresql
-  host: localhost
-  username: alpha-blog
-  database: alpha-blog_production
 
