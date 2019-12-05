@@ -54,10 +54,11 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
+  gem 'capybara', '~> 3.29'
+  gem 'selenium-webdriver', '~> 2.48', '>= 2.48.1'
   # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
+  gem 'chromedriver-helper', '~> 1.0'
+  gem 'rails-controller-testing', '~> 0.0.3'
 end
 
 group :production do
