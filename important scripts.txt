@@ -1,0 +1,3 @@
+==> heuroku run rails console
+user = User.last
+user.toggle!(:admin)
